@@ -6,40 +6,38 @@ export default {
   ],
   theme: {
     extend: {
+      scrollBehavior: ["smooth"],
       colors: {
         primary: "#ADD8E6",
       },
       screens: {
-        'md': '940px', // Default is 768px; you can change this value to whatever you need.
-        'lg': '1180px', // Default is 768px; you can change this value to whatever you need.
+        md: "940px", // Default is 768px; you can change this value to whatever you need.
+        lg: "1180px", // Default is 768px; you can change this value to whatever you need.
       },
       aspectRatio: {
         rectangle: "4/3",
       },
       keyframes: {
         wave: {
-          '0%, 100%': { transform: 'rotate(0deg)' },
-          '50%': { transform: 'rotate(20deg)' },
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(20deg)" },
         },
         point: {
-          '0%, 100%': { transform: 'translateX(0)' },
-          '50%': { transform: 'translateX(10px)' },
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(10px)" },
         },
       },
       animation: {
-        wave: 'wave 1.2s infinite',
-        point: 'point 1.2s infinite',
+        wave: "wave 1.2s infinite",
+        point: "point 1.2s infinite",
       },
       variants: {
         extend: {
-          animation: ['hover'], 
-          
+          animation: ["hover"],
+          scrollBehavior: ["smooth"],
         },
       },
     },
   },
-  plugins: [
-
-    require("tw-elements/plugin.cjs")
-  ],
+  plugins: [],
 };
