@@ -58,6 +58,14 @@ export default function IndexPage() {
     "./images/rideFindrNav.png",
     "./images/rideFindrRides2.png",
   ];
+  let slidesPathfinding = [
+    "./images/vis1.png",
+    "./images/vis2.png",
+    "./images/vis3.png",
+    "./images/vis4.png",
+    "./images/vis5.png",
+    "./images/vis6.png",
+  ];
 
   let languages = [
     { name: "Java", icon: <FaJava size={50} /> },
@@ -268,6 +276,52 @@ export default function IndexPage() {
                 <Carousel
                   className="hidden md:block md:w-full"
                   slides={slidesRideFindr}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col xl:grid xl:grid-cols-[1fr_2fr] gap-6 p-4 ">
+            <div className="hidden xl:block  ">
+              <Carousel
+                className="hidden md:block md:w-full"
+                slides={slidesPathfinding}
+              />
+            </div>
+
+            <div className="md:w-full">
+              <div>
+                <a
+                  href="https://github.com/l-quincy01/pathfinding-visualizer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 text-lg font-semibold group"
+                >
+                  <h3 className="cursor-pointer"> Pathfinding Visualizer </h3>
+                  <MdArrowOutward className="transition-transform transform group-hover:translate-x-1 group-active:translate-x-2" />
+                </a>
+              </div>
+              <span className="text-sm lg:text-md xl:text-lg">
+                Pathfinding Visualizer is a web application built with React
+                that visualizes the Dijkstra algorithm, a popular pathfinding
+                algorithm used to find the shortest path between nodes in a
+                graph. This project is designed to provide an interactive way to
+                understand how the algorithm works, making it easier for users
+                to see the steps involved in finding the shortest path from a
+                start node to a finish node on a grid.
+              </span>
+              <div className="hidden xl:flex mt-4 flex-row gap-2">
+                <div className="p-2 rounded-2xl text-gray-400 border-2 border-primary">
+                  React
+                </div>
+                <div className="p-2 rounded-2xl text-gray-400 border-2 border-primary">
+                  Algorithims
+                </div>
+              </div>
+              <div className="hidden xl:hidden md:block ">
+                <Carousel
+                  className="hidden md:block md:w-full"
+                  slides={slidesPathfinding}
                 />
               </div>
             </div>
