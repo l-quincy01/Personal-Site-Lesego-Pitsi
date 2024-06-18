@@ -1,5 +1,3 @@
-import React from "react";
-
 const PointingEmoji = () => {
   return (
     <div className="font-light text-sm  lg:text-md xl:text-xl flex flex-row items-center gap-4 ">

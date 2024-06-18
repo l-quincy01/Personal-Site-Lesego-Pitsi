@@ -27,8 +27,8 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 import { PiLightbulbFilamentLight } from "react-icons/pi";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import WavingEmoji from "../src/WavingEmoji";
-import PointingEmoji from "../src/PointingEmoji";
+import WavingEmoji from "../WavingEmoji";
+import PointingEmoji from "../PointingEmoji";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -36,8 +36,8 @@ import { SiExpress } from "react-icons/si";
 import { SiVisualstudio } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 
-import Carousel from "../src/Carousel";
-import SkillsCarousel from "../src/SkillsCarousel";
+import Carousel from "../Carousel";
+import SkillsCarousel from "../SkillsCarousel";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export default function IndexPage() {
