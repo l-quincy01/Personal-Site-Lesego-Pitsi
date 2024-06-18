@@ -23,13 +23,18 @@ export default {
           "50%": { transform: "rotate(20deg)" },
         },
         point: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(10px)" },
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "200%": { transform: "translateX(-100%)" },
         },
       },
       animation: {
         wave: "wave 1.2s infinite",
         point: "point 1.2s infinite",
+        scroll: "scroll 10s linear infinite",
       },
       variants: {
         extend: {
