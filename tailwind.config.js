@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
       scrollBehavior: ["smooth"],
       colors: {
         primary: "#ADD8E6",

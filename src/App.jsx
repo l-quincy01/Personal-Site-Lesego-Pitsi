@@ -1,25 +1,16 @@
 import "./App.css";
+
 import { Route, Routes } from "react-router-dom";
-import IndexPage from "./pages/IndexPage";
 import Layout from "./Layout";
-import axios from "axios";
-//import 'tw-elements/dist/css/tw-elements.min.css';
-
-
-
-axios.defaults.baseURL = "http://localhost:4000";
-axios.defaults.withCredentials = true;
+import IndexPage from "./index_page/IndexPage";
 
 function App() {
-
   return (
-
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<IndexPage />} />
-        </Route>
-      </Routes>
-
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<IndexPage />} />
+      </Route>
+    </Routes>
   );
 }
 
