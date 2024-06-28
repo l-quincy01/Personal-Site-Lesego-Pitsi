@@ -5,9 +5,9 @@ export default function Resume() {
   return (
     <>
       <section id="resume" className="scroll-smooth">
-        <div id="#resume" className="flex flex-col items-center mt-20 md:mt-40">
+        <div id="#resume" className="flex flex-col items-center mt-60">
           <h2 className="text-2xl font-bold text-center mb-6 flex items-center gap-2">
-            <IoDocumentTextOutline /> Resume
+            <IoDocumentTextOutline /> My Resume
           </h2>
           <div className="flex justify-center items-center w-full">
             <a

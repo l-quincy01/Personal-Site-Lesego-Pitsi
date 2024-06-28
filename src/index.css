@@ -8,6 +8,7 @@ button
 {
     @apply bg-gray-300  rounded-lg ;
     @apply font-sans;
+    
 }
 
 button.primary
@@ -16,3 +17,15 @@ button.primary
     @apply bg-primary  p-2 w-full text-white rounded-lg;
 }
 
+body.dark {
+    background-color: #2D3748; /* slate-900 */
+    color: white;
+  }
+  
+  body.dark h1,
+  body.dark h2,
+  body.dark h3,
+  body.dark p,
+  body.dark span {
+    color: white;
+  }

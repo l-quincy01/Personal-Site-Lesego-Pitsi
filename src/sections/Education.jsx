@@ -6,9 +6,9 @@ export default function Education() {
   return (
     <>
       <section id="education" className="scroll-smooth">
-        <div className="flex flex-col items-center mt-20 md:mt-40">
+        <div className="flex flex-col items-center mt-60">
           <h2 className="text-2xl font-bold text-center mb-6 flex items-center gap-2">
-            <HiOutlineAcademicCap /> Education
+            <HiOutlineAcademicCap /> My Education
           </h2>
           <div className="flex justify-center flex-row gap-6 p-4 md:p-10 w-full">
             <div>
@@ -33,8 +33,9 @@ export default function Education() {
                 <ul className="ml-10 list-disc">
                   <li className="text-sm lg:text-md xl:text-lg">Chess</li>
                   <li className="text-sm lg:text-md xl:text-lg">
-                    Golden Key Society
+                    Dev Soc (2022)
                   </li>
+
                   <li className="text-sm lg:text-md xl:text-lg">
                     Boxing and MMA
                   </li>
